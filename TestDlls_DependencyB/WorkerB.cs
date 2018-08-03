@@ -12,6 +12,7 @@ namespace TestDlls_DependencyB
         public override void Work()
         {
             LogManager.Logger.Write("WorkerB: Working...");
+            LogManager.Logger.Flush();
         }
     }
 }

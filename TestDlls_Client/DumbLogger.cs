@@ -13,5 +13,11 @@ namespace TestDlls_Client
         {
             Console.WriteLine($"Dumb Log: {message}");
         }
+
+        public void Reset()
+        {
+            Console.WriteLine($"Too dumb to reset.");
+
+        }
     }
 }
