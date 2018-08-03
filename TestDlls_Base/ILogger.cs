@@ -9,6 +9,7 @@ namespace TestDlls_Base
     public interface ILogger
     {
         void Write(string message);
+        //void Flush();
         void Reset();
     }
 }

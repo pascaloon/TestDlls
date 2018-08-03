@@ -8,6 +8,10 @@ namespace TestDlls_Base
 {
     static public class LogManager
     {
-        static public ILogger Logger { get; set; } = null;
+        static LogManager()
+        {
+            Console.WriteLine("LogManager: static ctor");
+        }
+        public static ILogger Logger { get; set; } = null;
     }
 }

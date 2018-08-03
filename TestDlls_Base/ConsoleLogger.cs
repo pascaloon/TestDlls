@@ -14,6 +14,11 @@ namespace TestDlls_Base
             Console.WriteLine($"Log: {message}");
         }
 
+        //public void Flush()
+        //{
+        //    Console.WriteLine($"Flush!");
+        //}
+
         public void Reset()
         {
             Console.WriteLine($"Reset!");
